@@ -1,0 +1,306 @@
+/* General styles for responsiveness */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom styles */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    color: #007bff;
+    text-align: right;
+}
+
+header .p {
+    font-style: italic;
+    color:#ff0000;
+    display: flex;
+    font-size:9px;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+/* Section with background image */
+.now {
+    background-image: url("images/0.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 15/25;
+    width: 100%;
+    padding: 0;
+    min-height: 0;
+}
+
+.second-background {
+    background-image: url("images/8.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 15 / 20;
+    width: 100%;
+    padding: 0;
+    min-height: 0;
+    height: auto;
+}
+
+.third {
+    background-image: url("images/9.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 15 / 35;
+    width: 100%;
+    padding: 0;
+    min-height: 0;
+    height: auto;
+}
+
+/* Card Hover Effects */
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    transition: transform 0.15s ease;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+
+.hi {
+    font-size: 50px;
+    color: darkred;
+}
+
+/* About Us section with plain white background */
+.about {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+/* Category Section */
+.category-card {
+    display: none;
+}
+
+.category-card.active {
+    display: block;
+}
+
+.category-title {
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.qonda {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.qiniso {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.yiva {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.Ovayo {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff0000;
+    font-size: 15px;
+}
+
+.buyakum {
+    color: #ff0000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.betty {
+    color: #041403;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.hr {
+    color: white;
+}
+
+.home-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.home-button:hover {
+    background-color: #45a049;
+}
+
+.container1 {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff33;
+    padding: 20px;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown {
+    margin: 20px 0;
+}
+
+.tip-box {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #041403;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tip-box h3 {
+    margin-top: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+    .container1 {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .home-button {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+
+
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .container1 {
+        padding: 10px;
+    }
+
+    .home-button {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    .container1 {
+        padding: 5px;
+    }
+
+    .home-button {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .category-title {
+        font-size: 1.2em;
+    }
+
+
+
+
+
+
+
+
+
+
+
