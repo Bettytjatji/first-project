@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAIR-O ROOTS.</title>
+    <link rel="icon" href="images/1.png" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Corrected CSS link -->
+    <link rel="stylesheet" href="style.css" onload="console.log('CSS file loaded successfully.')" onerror="console.error('Failed to load CSS file.')">
+</head>
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">HAIR-O..<img src="images/1.png" alt="Logo" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex justify-content-between w-100">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#about">About Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="now">
+        <!-- Header -->
+        <header>
+            
+            
+        </header>
+    </div>
+
+    <main>
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>HAIR-O ROOTS! We are dedicated to providing organic hair care products that promote healthy hair growth. Our mission is to offer high-quality, root-enhancing products that help you achieve your best hair length and health, valued under affordable prices.<br> HAIR-O ROOTS is aware of all hair diversities as we provide hair care tips on washing, nourishing, and caring for your hair according to your hair type.</p>
+        <p>You can trust us with taking care of your hair  because we value your Identity for it is of our face and bone.</p>
+        </section>
+
+        <div class="second-background">
+            <!-- Products Section -->
+            <section id="products" class="container my-5">
+                <h3 class="hi">Our Products</h3>
+                
+                <!-- Categories -->
+                <div class="category-title" onclick="toggleCategory('pure-soaps')">Pure Soaps</div>
+                <div id="pure-soaps" class="category-card">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/6.png" class="card-img-top" alt="Coconut Soap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coconut Soap</h5>
+                                    <p class="card-text">Coconut soap for healthy scalp, no dandruff.</p>
+                                    <p class="card-text"><strong>R180.00</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/6.png" class="card-img-top" alt="Honey Soap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Honey Soap</h5>
+                                    <p class="card-text">Soothing honey soap for restoring hair moisture and health.</p>
+                                    <p class="card-text"><strong>R180.00</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/6.png" class="card-img-top" alt="Aloe Soap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Aloe Soap</h5>
+                                    <p class="card-text">Gentle aloe soap with vitamins for hair growth.</p>
+                                    <p class="card-text"><strong>R180.00</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-title" onclick="toggleCategory('pure-oils')">Pure Oils</div>
+                <div id="pure-oils" class="category-card">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/7.png" class="card-img-top" alt="Castor Oil">
+                                <div class="card-body">
+                                    <h5 class="card-title">Castor Oil<strong>(100ml)</strong></h5>
+                                    <p class="card-text">Organic castor oil for healthy stimulated hair.</p>
+                                    <p class="card-text"><strong>R180.00</strong></p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/7.png" class="card-img-top" alt="Coconut Oil">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coconut Oil<strong>(100ml)</strong></h5>
+                                    <p class="card-text">Pure coconut oil to protect hair from heat damage, calms irritation, and treats split ends.</p>
+                                    <p class="card-text"><strong>R180.00</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/7.png" class="card-img-top" alt="Olive Oil">
+                            
+                                <div class="card-body">
+                                    <h5 class="card-title">Olive Oil<strong>(100ml)</strong></h5>
+                                    <p class="card-text">Hydrating olive oil for your hair plus prevents fungal infections.</p>
+                                    <p class="card-text"><strong>R180.00</strong></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-title" onclick="toggleCategory('blended-soaps')">Blended Soaps</div>
+                <div id="blended-soaps" class="category-card">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/3.png" class="card-img-top" alt="Cloves Soap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cloves Soap</h5>
+                                    <p class="card-text">A soothing soap with cloves for removing dandruff.</p>
+                                    <p class="card-text"><strong>R250.00</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/3.png" class="card-img-top" alt="Fenugreek Soap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fenugreek Soap</h5>
+                                    <p class="card-text">Rich fenugreek soap for scalp repair plus hair growth.</p>
+                                    <p class="card-text"><strong>R250.00</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/3.png" class="card-img-top" alt="Chebe Soap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chebe Soap</h5>
+                                    <p class="card-text">Leaves hair thicker and stronger.</p>
+                                    <p class="card-text"><strong>R250.00</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-title" onclick="toggleCategory('blended-oils')">Blended Oils</div>
+                <div id="blended-oils" class="category-card">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/4.png" class="card-img-top" alt="Coconut Oil">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coconut Oil + Other Herbs And Oils<strong>(100ml)</strong></h5>
+                                    <p class="card-text">Basic coconut oil for hair and sculp.</p>
+                                    <p class="card-text"><strong>R250.00</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/4.png" class="card-img-top" alt="Rosemary Oil">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rosemary Oil + Other Herbs And Oils<strong>(100ml)</strong></h5>
+                                    <p class="card-text">Rosemary oil for invigorating hair growth.</p>
+                                    <p class="card-text"><strong>R250.00</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/4.png" class="card-img-top" alt="Fenugreek Oil">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fenugreek Oil + Other Herbs And Oils<strong>(100ml)</strong></h5>
+                                    <p class="card-text">Fenugreek oil for strong follicles and shine.</p>
+                                    <p class="card-text"><strong>R250.00</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
+        <div class="third">
+            <section id="facts">
+                <h2 class="qiniso">Did You Know?</h2>
+                <p class="yiva">That out of all the emojis in the section there's not a single one with an afro🤦🏽‍♀️...<br>
+                duh you don't have to validate that😂...😅</p>
+                   <p class="Ovayo" To <strong>Place</strong> your <em>orders</em>, click the WhatsApp link and <i>Specify what you want to order and how many items you have ordered</i>.<br>
+                    Show <strong>Proof of Payment</strong> in order for us to get started with your order right away.</p>
+                    <br><p class="yiva">based on courier of the product specicy on WhatsApp we will talk about how you will recieve your parcel.</p>
+                <br>
+                <div class="container1">
+                    <h1><p class="betty">Personalized Hair Care Tips</p></h1>
+                    <div class="dropdown">
+                        <label for="hair-type">Select Your Hair Type:</label>
+                        <select id="hair-type">
+                            <option value="natural">Natural Hair</option>
+                            <option value="relaxed">Relaxed Hair</option>
+                            <option value="braids">Braided Hair</option>
+                        </select>
+                    </div>
+            
+                    <button onclick="showTips()">Get Tips</button>
+                    <div id="tips-container1">
+                        <!-- Tips will be displayed here -->
+                    </div>
+                </div>
+             
+                <section id="contacts">
+                    <p class="qonda">For more information<br>
+                        🤙🏽 <a href="https://wa.me/qr/6LOUDW3MJVP6O1"rel="noopener noreferrer" target="_blank" ><img src="images/2.png" alt="WhatsApp" class="icon"> WhatsApp Us</a>
+                    </p>
+                </section>
+                <hr>
+                <nav>
+                    <a href="#" class="home-button">&#8593;</a>
+                </nav>
+
+                <h3 class="buyakum">You can rock our products in braids, free hair, or just twists and turn your hair journey into a beautiful one.</h3>
+                <h4 class="buyakum">Thank you for choosing HAIR-O ROOTS!🌺</h4>
+            </section>
+
+            <footer class="buyakum">
+                <p>HAIR-O ROOTS! &copy; 2025</p>
+                <hr>
+            </footer>
+        
+    </main>
+
+    <!-- Add Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        function toggleCategory(categoryId) {
+            const category = document.getElementById(categoryId);
+            if (!category) {
+                console.error(`Category with ID "${categoryId}" not found.`);
+                return;
+            }
+            category.classList.toggle('active');
+            console.log(`Toggled category: ${categoryId}, Active state: ${category.classList.contains('active')}`);
+        }
+
+        function showTips() {
+            const hairTypeElement = document.getElementById('hair-type');
+            if (!hairTypeElement) {
+                console.error('Hair type dropdown not found.');
+                return;
+            }
+
+            const hairType = hairTypeElement.value;
+            console.log(`Selected hair type: ${hairType}`);
+
+            let tips = '';
+            if (hairType === 'natural') {
+                tips = `
+                    <div class="tip-box">
+                        <h3>Tips for Natural Hair:</h3>
+                        <ul>
+                            <li><strong>Washing:</strong> Use our sulphate sulfate-free hair soap bar to avoid drying.</li>
+                            <li><strong>Moisturizing:</strong> Use a water-based leave-in conditioner.</li>
+                            <li><strong>Oil Treatment:</strong> Apply  Our oil range (such as coconut or olive oil) Purre oils.</li>
+                            <li><strong>For Long Healthy hair:</strong>Use this method along with our products for at least 4 months <em>consistantly.</em></li>
+                        </ul>
+                    </div>`;
+            } else if (hairType === 'relaxed') {
+                tips = `
+                    <div class="tip-box">
+                        <h3>Tips for Relaxed Hair:</h3>
+                        <ul>
+                            <li><strong>Washing:</strong> Use Our sulfate-free hair soap to prevent dryness and further sculp/root damage.</li>
+                            <li><strong>Moisturizing:</strong> Use a moisturizing conditioner(prefered olive/coconut oil based or shea butter) and follow with a leave-in conditioner.</li>
+                            <li><strong>Oil Treatment:</strong> Deep condition with hot oil treatments you can use Our Blended oils for the best results.</li>
+                            <li><strong>For Long Healthy hair:</strong>Use this method along with our products for at least 4 months <em>consistantly.</em></li>
+                        </ul>
+                    </div>`;
+            } else if (hairType === 'braids') {
+                tips = `
+                    <div class="tip-box">
+                        <h3>Tips for Braided Hair:</h3>
+                        <ul>
+                            <li><strong>Washing Braids:</strong> Wash your braids every 2-3 weeks.</li>
+                            <li><strong>Moisturizing:</strong> Use a spray bottle with a mix of water and leave-in conditioner to live the hair roots fed with moisture.</li>
+                            <li><strong>Oil Treatment:</strong> Use Our blended hair oils to promote good length and enough nutrients for your hair.</li>
+                            <li><strong>For Long Healthy hair:</strong>Use this method along with our products<em>consistantly </em> on your braids.</li>
+                        </ul>
+                    </div>`;
+            } else {
+                console.warn(`Invalid hair type selected: "${hairType}".`);
+                return;
+            }
+
+            const tipsContainer = document.getElementById('tips-container1');
+            if (!tipsContainer) {
+                console.error('Tips container not found.');
+                return;
+            }
+
+            if (!tipsContainer.innerHTML) {
+                tipsContainer.innerHTML = tips;
+                console.log('Tips displayed successfully.');
+            } else {
+                tipsContainer.innerHTML = '';
+                console.log('Tips hidden successfully.');
+            }
+        }
+    </script>
+</div>
+</body>
+</html>
+
+
+
+
+
